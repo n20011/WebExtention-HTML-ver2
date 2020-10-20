@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>フォーム</title>
+	</head>
+
+
+
+	<!--[c08-01-a]-->
+	<form action="#" method="post">
+		<p>
+			<label for="name-field">お名前</label><br>
+			<input type="text" name="name" id="name-field">
+		</p>
+	</form>
+
+
+
+
+
+	<!--[c08-01-b]-->
+	<form action="#" method="post">
+		<p>
+			<label>お名前<br>
+			<input type="text" name="name" id="name-field"></label>
+		</p>
+    </form>
+
+
+
+
+
+	<!--[c08-01-c]-->
+	<style>
+		.required {
+	  	padding: 0.5em;
+	  	font-size: 0.75em;
+	  	color: #ff0000;
+		}
+
+	</style>
+
+
+	<body>
+		<form action="#">
+			<p>
+				<label for="name-field">お名前<span class="required">*必須</span></label><br>
+
+				<input type="text" name="name" id="name-field" required>
+			</p>
+		</form>
+	</body>
+
+
+
+
+
+<!--[c08-01-d]-->
+	<style>
+		body {margin: 0;}
+
+		form {padding: 16px;}
+
+		input {box-sizing: border-box;}
+
+		input[type="text"] {
+			margin: 0.5em 0;
+			padding: 0.5em;
+			width: 100%;
+			font-size: 16px;
+		}
+	</style>
+
+
+	<body>
+		<from action="#">
+			<p>
+				<label for="name-field">お名前</label><br>
+				<input type="text" name="name" id="name-field" required>
+			</p>
+		</from>
+	</body>
+
+
+
+
+
+<!--[c08-01-e]-->
+	<style>
+		body {margin: 0;}
+
+		form {padding: 16px;}
+
+		input {box-sizing: border-box;}
+
+		input[type="text"] {
+			margin: 0.5em 0;
+			border: 1px solid #ccc;
+			padding: 0.75em;
+			width: 100%;
+			font-size: 16px;
+			color: #999;
+			border-radius: 6px;
+		}
+
+		input[type="text"]:focus {
+			background-color: #e2ecf6;
+		}
+	</style>
+
+
+
+
+
+<!--[c08-01-f]-->
+	<p>
+		<label for="pw-field">パスワード</label><br>
+		<input type="password" name="pw" id="ps-field">
+	</p>
+
+
+
+	<p>
+		<label for="email-field">メールアドレス</label><br>
+		<input type="email" name="email" id="email-field">
