@@ -23,7 +23,7 @@
 		}
 
 
-		textarea{
+		textarea {
 			border: 1px solid #ccc;
 			padding: 8px;
 			width: 100%;
@@ -46,6 +46,17 @@
 		}
 
 
+		input[type="reset"] {
+			border: 1px solid #0086f9;
+			border-radius: 6px;
+			padding: 12px 48px;
+			background: linear-gradient(0deg, #0086f9, #b6d6f7);
+			color: #fff;
+			font-weight: bold;
+		}
+
+
+
 		input[type="submit"]:hover {
 			background: linear-gradient(0deg, #2894f9, #d2e4f7);
 		}
@@ -62,7 +73,8 @@
 
 
 <body>
-	<form action="#" method="POST" id="contact">
+	<form action="http://172.16.40.71/form.py" method="POST" id="contact">
+		
 		<!--お名前ーテキスト-->
 		<p>
 			<label for="name-field">お名前</label><br>
@@ -84,9 +96,18 @@
 		</p>
 
 
-		<!--送信ボタン-->
-		<p class="submit-p"><input type="submit" value="送信する" id="submit" name="submit">
+		<!--送信ボタン「少し遊びました」-->
+		<p class="submit-p"><input type="submit" value="リセット？" id="submit" name="submit">
 		</p>
+
+
+		<p class="submit-p"><input type="reset" value="受信する？" id="submit" name="submit">
+		</p>
+
+		<p>
+			<b>[注意]</b>少し遊びました
+		</p>
+
 
 	</form>
 
