@@ -23,6 +23,6 @@
 
 11. Chapter11「[フォーム](chapter11)」
 
-
+12. Chapter12「[ページ全体のレイアウトとナビゲーション](chapter12)」
 
 [TOPへ戻る](https://github.com/n20011/WebExtention-HTML-ver2/blob/master/page1.md)
