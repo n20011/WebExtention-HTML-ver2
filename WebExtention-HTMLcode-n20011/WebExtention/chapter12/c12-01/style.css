@@ -43,7 +43,12 @@ main p:last-child {
 
 .main-inner {
 	padding: 20px 10px 20px 10px;
+
 	background: #fffde3;
+	/* 
+	 レイアウトのイメージをしやすいように高さを設定。
+	 通常のwebデザインではレイアウトで高さを指定しない
+	*/
 	height: 400px;
 }
 
