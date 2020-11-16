@@ -2,6 +2,22 @@
 
 body {
 	margin: 0;
+	color: #444;
+}
+
+
+nav {
+	margin-bottom: 20px;
+}
+
+
+footer {
+	margin-top: 20px;
+}
+
+
+main p:last-child {
+	margin-bottom: 0;	
 }
 
 
@@ -44,16 +60,6 @@ body {
 }
 
 
-body{
-	color: #444;
-}
-
-
-main p:last-child {
-	margin-bottom: 0;	
-}
-
-
 .main-title {
 	margin: 0;
 }
@@ -61,14 +67,4 @@ main p:last-child {
 
 .copyright {
 	margin: 0;
-}
-
-
-nav {
-	margin-bottom: 20px;
-}
-
-
-footer {
-	margin-top: 20px;
 }
