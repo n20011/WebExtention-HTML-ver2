@@ -139,8 +139,13 @@ footer {
 	.hamburger {
 		display: none;
 	}
-	
+
 	.navbar {
 		display: flex !important;
+		/*justify-content: space-between;*/
+	}
+
+	.navbar li:first-child {
+		margin-right: auto;
 	}
 }
