@@ -25,4 +25,6 @@
 
 12. Chapter12「[ページ全体のレイアウトとナビゲーション](chapter12)」
 
+13. Chapter13「[レスポンシブWebデザインのページを作成しよう]」(chapter13)
+
 [TOPへ戻る](https://github.com/n20011/WebExtention-HTML-ver2/blob/master/page1.md)
